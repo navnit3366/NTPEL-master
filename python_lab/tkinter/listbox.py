@@ -1,0 +1,10 @@
+import tkinter as tk
+parent = tk.Tk()
+label=tk.Label(parent,text="List of colours")
+listbox=tk.Listbox(parent)
+listbox.insert(1,"Red")
+listbox.insert(2,"Green")
+listbox.insert(3,"Yellow")
+label.pack()
+listbox.pack()
+parent.mainloop()
